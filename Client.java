@@ -32,7 +32,7 @@ public class Client {
                 lLine=lIn.readLine();
                 //here, we would store the row somewhere, to build our board
                 //in this demo, we just print it
-                System.out.println(lLine);
+                System.out.println("made a line 2" +lLine);
             }
     
             //now, we should find a path from the player to any goal
