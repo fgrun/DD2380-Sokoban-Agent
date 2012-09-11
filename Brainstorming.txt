@@ -1,0 +1,15 @@
+Find boxes
+Find goals
+Find paths from boxes to goals
+Find path from player to behind the box
+	Constraint:
+		If the box needs to move one direction, then there needs to be an empty space behind the box
+Move box
+Re-evaluate how to get player to the next position
+	If position is unreachable, then 2 options: backtrack or improvise
+	
+Consider special cases
+
+Tasks:
+	Figure out efficient search algorithm + heuristic (A*?)
+	
