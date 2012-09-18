@@ -1,0 +1,42 @@
+public static String result;
+
+public Class GameState {
+
+	//Fields
+	char[][] board;
+	ArrayList<Box> boxes;
+	ArrayList<Goal> goals;
+	int playerX;
+	int playerY;
+	
+	//Methods
+
+	//  Leo
+	//calculates manhatten distance and returns as int
+	int getDistance(int startX, int startY, int endX, int endY)
+
+	//  Felix
+	//finds the closest box and returns index as int
+	int findNextBox()
+
+	//  Felix
+	//finds the closest goal and returns index as int
+	int findNextGoal()
+}
+
+public Class Client {
+	
+	//keeps track of player moves
+	public static String result
+	
+	//  Dima
+	//moves the player from start to end
+	//returns false if not reachable
+	Boolean MovePlayer(int startX, int startY, int endX, int endY)
+	
+	//moves the box to the goal and returns the updated GameState
+	GameState moveBoxToGoal(GameState state, int boxIndex, int goalIndex)
+	
+	//Builds the global tree and does the iteration
+	mainMethod()
+}
